@@ -3,6 +3,7 @@ Validador de JSON pelo terminal atráves do Python json.tool:
 python -m json.tool dog_friend.json
 python -m json.tool dog_friend.json --indent 2 -> exibir com identação
 python -m json.tool dog_friend.json --compact -> remove os espaços em branco
+python -m json.tool dog_friend.json output_dog_friend.json --compact
 
 Importante: deixar um JSON formatado e bonito com espaços em branco aumenta o
     tamanho dele e pode ser um problema ao trabalhar com JSON muito grande
