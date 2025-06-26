@@ -42,5 +42,9 @@ def dataframe_basic_uses():
 
     # print(df.size) -> attr: numero total de itens do dataframe
 
+    # print(df.sample()) -> retorna dados aleatórios
+    # para trazer sempre o mesmo resultado (determinístico)
+    # print(df.sample(10, random_state=1)) -> random_state para trazer sempre
+
 
 dataframe_basic_uses()
